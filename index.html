@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>currency converter</h1>
+            <div id="calculator">
+                <form>
+                    <label>Enter amount to convert<br> 
+                        <input type="text" id="converter"></label>
+                    <label>convert from<br> 
+                        <select id="convertfrom">
+                        <option disabled selected value="0">---choose an option---</option>
+                        <option>Euro</option>
+                        <option>pounds</option>
+                        <option>Yuan</option>
+                        <option>Yen</option>
+                        <option>Naira</option>
+                       </select>
+                    </label>    
+                    <label>convert to<br> 
+                        <select id="convertto">
+                            <option disabled selected value="0">---choose an option---</option>
+                            <option>Euro</option>
+                            <option>pounds</option>
+                            <option>Yuan</option>
+                            <option>Yen</option>
+                            <option>Naira</option>
+                        </select>
+                    </label>
+                    
+                    <button type="button" id="calculator">convert!</button>
+                </form>
+            
+            </div>
+            <div id="Result">
+               
+            </div>
+        </div>
+     </body>
+</html>
